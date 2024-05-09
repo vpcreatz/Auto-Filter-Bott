@@ -86,6 +86,7 @@ async def start(client, message):
         return
 
     mc = message.command[1]
+    print(mc)
 
     if mc.startswith('verify'):
         _, token = mc.split("_", 1)
